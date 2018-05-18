@@ -87,3 +87,4 @@ git fsck
 git remote set-url origin  $respority_url                                          #替换新的仓库
 
 ~/.ssh/config                                                                                  #指定密钥访问     HOST gitlab.irootech.com\n   IdentityFile /root/.ssh/gitlab
+ssh-keyscan <enter_domainname_e.g._github.com> >> ~/.ssh/known_hosts       #增加信任主机
